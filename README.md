@@ -100,4 +100,4 @@ The Science DMZ team will provide best-effort support, including configuration a
 * Remote-transfer techniques, including using Globus
 * Using perfSONAR to monitor end-to-end network performance
 If you have a use case you think might not be covered by these services, we’d still like to hear about what you need. Researchers’ needs will be used to shape these services in the future.
-Contact the Science DMZ team.
+Contact the Science DMZ [team](j_fossot@uncg.edu).
