@@ -29,6 +29,9 @@ Typically, there is a primary high-capacity path connecting the Science DMZ with
 4. ACLs and ofﬂine security appliances
 The primary method to protect a Science DMZ is via router’s Access Control Lists (ACLs). Since ACLs are implemented in the forwarding plane of a router, they do not compromise the end-to-end throughput. Additional ofﬂine appliances include payload-based and ﬂow-based intrusion detection systems (IDSs).
 
+![image](https://i.imgur.com/ta2jAwM.png)
+
+
 
 ## Get Started:
 * Accessing The gcrNet
@@ -36,7 +39,15 @@ The primary method to protect a Science DMZ is via router’s Access Control Lis
 * Accessing the network performance-measurement tools.
 * Accessing Shared storage (Can researchers mount it on their device?)
 * Layout of the gcrNet (Final diagram from network and systems)
-* Background: Point to the ESnet (GEANT as well to show the inter-continental reach)
+
+### Background:
+
+A Science DMZ has the following elements as described by the US Department of Energy’s Energy Sciences Network ([ESnet](https://www.es.net/)):
+
+* High-speed, low-latency network with equipment, configuration, and security policies that are optimized for high-performance scientific applications, rather than for general-purpose business systems.
+* Dedicated high-performance data transfer nodes that optimize the transfer of large datasets over long distance.
+* Performance-measurement nodes.
+* Access to shared storage
     
 ## Roles and Responsibilities:
 This is still to be defined but below are examples
@@ -47,10 +58,10 @@ This is still to be defined but below are examples
 * Provide consultation services for how to connect to the Science DMZ or Data Center hosting
 * Provide an estimate for one-time and ongoing costs for direct connection to the Science DMZ, for connections outside the Data Center
     
-## Client Responsibilities
+### Client Responsibilities
 1. Learn how to use Globus
 2. Move data to the DTN
-3. Review ESnet usage policy
+3. [Review ESnet usage policy](https://fasterdata.es.net/science-dmz/science-dmz-users/)
 4. Maintain your hosts in accordance with security best practices
 5. Review related services.
 6. Follow Prescribed security best practices at all times.
@@ -68,10 +79,14 @@ Because the Science DMZ is not a normal administrative or production network, bu
 
 
 ## Related services
-* HPC
+* [HPC]()
 
 ## More about The Science DMZ
-* Selected publications and articles
+* Get more information on Science DMZ [here](https://fasterdata.es.net/science-dmz/)
+* [The Science DMZ: A Network Design Pattern for Data-Intensive Science](https://ieeexplore.ieee.org/document/6877518) access to IEEE content is available from the UCSC campus network or VPN.
+* [Josh Sonstroem’s presentation: "Of Mice and Elephants: The Science DMZ and You"](https://prezi.com/h356ads5aaa_/of-mice-and-elephants-dco/)
+* [UC IT Blog: Helping Scientists Understand Research Cyber Risks using the Open Science Cyber Risk Profile tool ](https://cio.ucop.edu/helping-scientists-understand-research-cyber-risks/)
+
 
 ## Policy Information
 
@@ -82,7 +97,7 @@ Because the Science DMZ is not a normal administrative or production network, bu
 ## Get Help
 The Science DMZ team will provide best-effort support, including configuration and troubleshooting for:
 * Transfer issues for large dataset.
-*  Remote-transfer techniques, including using Globus
-*   Using perfSONAR to monitor end-to-end network performance
+* Remote-transfer techniques, including using Globus
+* Using perfSONAR to monitor end-to-end network performance
 If you have a use case you think might not be covered by these services, we’d still like to hear about what you need. Researchers’ needs will be used to shape these services in the future.
 Contact the Science DMZ team.
